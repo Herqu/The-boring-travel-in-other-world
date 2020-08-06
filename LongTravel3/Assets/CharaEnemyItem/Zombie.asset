@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0a4c1353c5ea54dad302fc082420b9, type: 3}
+  m_Name: Zombie
+  m_EditorClassIdentifier: 
+  m_TileCard: {fileID: 0}
+  m_CharaState:
+    maxHealth: 10
+    currentHealth: 10
+  m_CharaAttackData:
+    ATK: 2
+    attackRange: 1
+  m_charaBackGroundInformation:
+    name: NormalZombie
+    body: {fileID: -5567483344740070212, guid: 01e38e03917056e45911d898881e0723, type: 3}
+    description: "\u4E00\u4E2A\u666E\u901A\u7684\u8001\u50F5\u5C38"
+    helloWord: "\u4F60\u6709\u4EC0\u4E48\u95EE\u9898\u5417\uFF1F"

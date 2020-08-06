@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65dea245792bdd34caa990c29c6c5bee, type: 3}
+  m_Name: Li
+  m_EditorClassIdentifier: 
+  m_TileCard: {fileID: 0}
+  m_CharaState:
+    maxHealth: 10
+    currentHealth: 10
+    MaxEmotion: 10
+    CurrentEmotion: 10
+  m_charaBackGroundInformation:
+    name: Li
+    body: {fileID: 3501414718665423238, guid: 01e38e03917056e45911d898881e0723, type: 3}
+    description: "\u4E00\u4E2A\u5E74\u8F7B\u7684\u4E9A\u6D32\u4EBA"
+    helloWord: "\u6CA1\u6709\u8111\u5B50"
+  m_CharaAttackData:
+    ATK: 5
+    attackRange: 1
